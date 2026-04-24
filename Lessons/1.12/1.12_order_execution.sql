@@ -18,4 +18,3 @@ order by posting_count desc
 limit 10
 ;      
 
- select job_title_short
