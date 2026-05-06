@@ -2,6 +2,8 @@
 
 DROP SCHEMA if EXISTS flat_mart CASCADE;
 create SCHEMA flat_mart;
+SELECT '=== Loading Flat Mart ===' as info;
+
 CREATE OR REPLACE TABLE flat_mart.job_postings AS
 SELECT
     jpf.job_id,
